@@ -1,6 +1,9 @@
-CustomLint
+Yext Custom Lint Rules for Android
 ==========
 
-A pure Gradle port of the [custom lint rules!](http://tools.android.com/tips/lint-custom-rules).
+Custom lint rules for Android projects.
 
-Check [Writing Custom Lint Checks with Gradle](https://engineering.linkedin.com/android/writing-custom-lint-checks-gradle) for details.
+Current rules:
+* TodoWithoutIssue: Detects TODO comments without associated issues. It is recommended that all TODO comments specify a tracked issue for follow up (e.g.: // TODO (AB-1234): Do something).
+
+Based on instructions at: https://engineering.linkedin.com/android/writing-custom-lint-checks-gradle
